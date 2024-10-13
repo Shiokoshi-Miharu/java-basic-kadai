@@ -12,6 +12,9 @@ public abstract class Kato_Chapter18 {
 		System.out.println("名前は" +familyName + givenName + "です");
 		System.out.println( "住所は" + address + "です");
 	}
+	
+	public abstract void setGivenName();
+	
 	//個別の紹介を出力する
 	public abstract void eachIntroduce();
 	
